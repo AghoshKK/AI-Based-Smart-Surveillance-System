@@ -18,8 +18,8 @@ from ultralytics import YOLO
 # =========================================================
 # TELEGRAM CONFIG
 # =========================================================
-TELEGRAM_BOT_TOKEN = "8393591405:AAHCnQ34YBthyAJHFgI6333L0fpqFvKyEmA"
-TELEGRAM_CHAT_ID = "1548646865"
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def send_telegram_alert(message, image_path):
     try:
