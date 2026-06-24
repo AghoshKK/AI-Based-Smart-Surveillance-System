@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Models
+*.pt
+*.h5
+*.pth
+*.joblib
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Images generated during testing
+outputs/
+results/
+
+# OS Files
+.DS_Store
+Thumbs.db
